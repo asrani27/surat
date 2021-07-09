@@ -80,7 +80,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
   <footer class="main-footer">
     <div class="float-right d-none d-sm-inline">
     </div>
-    <strong>Copyright &copy; 2021 Diskominfotik Banjarmasin</strong>
+    <strong>Copyright &copy; 2021</strong>
     <div class="float-right d-none d-sm-inline-block">
       
       

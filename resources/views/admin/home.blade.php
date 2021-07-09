@@ -4,7 +4,7 @@
     
 @endpush
 @section('title')
-  <strong>SELAMAT DATANG DI APLIKASI PENILAIAN KINERJA PEAGWAI</strong>
+  <strong>SELAMAT DATANG DI APLIKASI PENILAIAN KINERJA PEGAWAI</strong>
 @endsection
 @section('content')
 <div class="row">
