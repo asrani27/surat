@@ -19,6 +19,10 @@ Route::get('/', function(){
 });
 Route::post('/login', [LoginController::class, 'login']);
 
+Route::get('/logout', function(){
+    Auth::logout();
+    return redirect('/');
+});
 
 Route::group(['middleware' => ['auth', 'role:superadmin']], function () {
     Route::get('/home/superadmin', [HomeController::class, 'superadmin']);
