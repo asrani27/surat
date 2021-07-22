@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Pegawai;
 use App\Models\SuratPinjam;
 use Illuminate\Http\Request;
 

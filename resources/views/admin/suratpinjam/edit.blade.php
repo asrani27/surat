@@ -9,7 +9,7 @@
             </div>
             <!-- /.card-header -->
             <!-- form start -->
-            <form class="form-horizontal" method="post" action="/superadmin/suratizin/{{$data->id}}">
+            <form class="form-horizontal" method="post" action="/superadmin/suratpinjam/{{$data->id}}">
               @csrf
               @method('PUT')
               <div class="card-body">
